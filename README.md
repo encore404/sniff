@@ -22,7 +22,7 @@ By default, sniff searches recursively, which means the program will look throug
 poems\poem.txt(3): Rough winds do shake the darling buds of May,
 ```
   
-If the path flag is omitted, sniff will automatically search the working directory, '**.**':
+If the path is omitted, sniff will automatically search the working directory, '**.**':
 
 ```
 > sn temperate
