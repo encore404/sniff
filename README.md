@@ -20,7 +20,6 @@ By default, sniff searches recursively, which means the program will look throug
 ```
 > sn shake poems
 poems\poem.txt(3): Rough winds do shake the darling buds of May,
-
 ```
   
 If the path flag is omitted, sniff will automatically search the working directory, '**.**':
@@ -31,7 +30,6 @@ If the path flag is omitted, sniff will automatically search the working directo
 .\poems\poem.txt(2): Thou art more lovely and more temperate.
 .\README.md(9): Thou art more lovely and more temperate.
 .\README.md(29): > sn temperate
-
 ```
 If your console supports color, the output will be colored with the pattern highlighted in red:  
 ![example image](images/example.png)
