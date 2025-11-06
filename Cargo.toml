@@ -1,0 +1,20 @@
+[package]
+name = "sniff"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.51", features = ["derive"] }
+colored = "3.0.0"
+enable-ansi-support = "0.3.1"
+regex = "1.12.2"
+walkdir = "2.5.0"
+
+[[bin]]
+name = "sniff"
+path = "src/main.rs"
+
+[[bin]]
+name = "sn"
+path = "src/main.rs"
